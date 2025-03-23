@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>/hugo-multisite-tailwind/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/categories/"
+                href="/hugo-multisite-tailwind/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/hugo-multisite-tailwind/categories/"
                 />
   </url><url>
-    <loc>/services/</loc>
+    <loc>/hugo-multisite-tailwind/services/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/services/"
+                href="/hugo-multisite-tailwind/de/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/services/"
+                href="/hugo-multisite-tailwind/services/"
                 />
   </url><url>
-    <loc>/</loc>
+    <loc>/hugo-multisite-tailwind/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/"
+                href="/hugo-multisite-tailwind/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/hugo-multisite-tailwind/"
                 />
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/hugo-multisite-tailwind/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/tags/"
+                href="/hugo-multisite-tailwind/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="/hugo-multisite-tailwind/tags/"
                 />
   </url>
 </urlset>

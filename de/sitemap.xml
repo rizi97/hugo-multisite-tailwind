@@ -2,52 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/de/categories/</loc>
+    <loc>/hugo-multisite-tailwind/de/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="/hugo-multisite-tailwind/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/categories/"
+                href="/hugo-multisite-tailwind/de/categories/"
                 />
   </url><url>
-    <loc>/de/</loc>
+    <loc>/hugo-multisite-tailwind/de/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/hugo-multisite-tailwind/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/"
+                href="/hugo-multisite-tailwind/de/"
                 />
   </url><url>
-    <loc>/de/services/</loc>
+    <loc>/hugo-multisite-tailwind/de/services/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/services/"
+                href="/hugo-multisite-tailwind/services/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/services/"
+                href="/hugo-multisite-tailwind/de/services/"
                 />
   </url><url>
-    <loc>/de/tags/</loc>
+    <loc>/hugo-multisite-tailwind/de/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="/hugo-multisite-tailwind/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/tags/"
+                href="/hugo-multisite-tailwind/de/tags/"
                 />
   </url>
 </urlset>
