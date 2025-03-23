@@ -175,7 +175,7 @@ body {
 }
 
 .bg_image {
-    background: url('{{ "assets/images/Hexagon-light.svg" | relURL }}'); 
+    background: url('{{ "assets/images/Hexagon-light.svg" | absLangURL }}'); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
