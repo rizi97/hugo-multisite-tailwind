@@ -10,63 +10,63 @@
     font-family: 'Futura';
     font-style: normal;
     font-weight: 100;
-    src: url('{{ "assets/fonts/FuturaPTBook.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTBook.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 200;
-    src: url('{{ "assets/fonts/FuturaPTLight.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTLight.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 300;
-    src: url('{{ "assets/fonts/FuturaPTMedium.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTMedium.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 400;
-    src: url('{{ "assets/fonts/FuturaPTBook.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTBook.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 500;
-    src: url('{{ "assets/fonts/FuturaPTDemi.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTDemi.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 600;
-    src: url('{{ "assets/fonts/FuturaPTCondBold.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTCondBold.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 700;
-    src: url('{{ "assets/fonts/FuturaPTBold.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTBold.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 800;
-    src: url('{{ "assets/fonts/FuturaPTCondExtraBold.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTCondExtraBold.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: normal;
     font-weight: 900;
-    src: url('{{ "assets/fonts/FuturaPTHeavy.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTHeavy.otf") format('opentype');
 }
 
 /* Oblique (Italic) fonts */
@@ -74,63 +74,63 @@
     font-family: 'Futura';
     font-style: oblique;
     font-weight: 100;
-    src: url('{{ "assets/fonts/FuturaPTBookOblique.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTBookOblique.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: oblique;
     font-weight: 200;
-    src: url('{{ "assets/fonts/FuturaPTLightOblique.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTLightOblique.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: oblique;
     font-weight: 300;
-    src: url('{{ "assets/fonts/FuturaPTMediumOblique.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTMediumOblique.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: oblique;
     font-weight: 400;
-    src: url('{{ "assets/fonts/FuturaPTBookOblique.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTBookOblique.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: oblique;
     font-weight: 500;
-    src: url('{{ "assets/fonts/FuturaPTDemiOblique.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTDemiOblique.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: oblique;
     font-weight: 600;
-    src: url('{{ "assets/fonts/FuturaPTCondBoldOblique.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTCondBoldOblique.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: oblique;
     font-weight: 700;
-    src: url('{{ "assets/fonts/FuturaPTBoldOblique.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTBoldOblique.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: oblique;
     font-weight: 800;
-    src: url('{{ "assets/fonts/FuturaPTCondExtraBoldOblique.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTCondExtraBoldOblique.otf") format('opentype');
 }
 
 @font-face {
     font-family: 'Futura';
     font-style: oblique;
     font-weight: 900;
-    src: url('{{ "assets/fonts/FuturaPTHeavyOblique.otf" | relURL }}') format('opentype');
+    src: url("/hugo-multisite-tailwind/assets/fonts/FuturaPTHeavyOblique.otf") format('opentype');
 }
 
 html {
@@ -175,7 +175,7 @@ body {
 }
 
 .bg_image {
-    background: url('{{ "assets/images/Hexagon-light.svg" | absLangURL }}'); 
+    background: url("/hugo-multisite-tailwind/assets/images/Hexagon-light.svg"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
