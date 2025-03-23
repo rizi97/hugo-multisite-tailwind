@@ -1,0 +1,15 @@
+<!-----Footer Start----->
+<footer class="bg-Dark p-4">
+    <p class="text-white text-base text-center font-light">© 2025 by {{ .Site.Title }} | 
+
+        {{ $menuItems := .Site.Menus.footer }}
+        {{ $total := len $menuItems }}
+
+        {{ range $index, $menuItem := $menuItems }}
+            <a href="{{ .URL | relLangURL }}" class="underline cursor-pointer">{{ .Name }}</a>
+            {{ if lt $index (sub $total 1) }} | {{ end }}
+        {{ end }}
+
+    </p>
+</footer>
+    <!-----Footer End----->

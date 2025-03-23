@@ -1,0 +1,37 @@
+{{ if .Params.Testimonials.enable }}
+
+<section class="lg:pt-20 lg:pb-28 pt-14 pb-24 bg-Dark">
+    <div class="container">
+        <div class="max-w-2xl mx-auto text-center">
+            <h2 class="lg:text-5xl text-3xl text-white font-medium leading-12 lg:mb-10 mb-3">
+                {{ .Params.Testimonials.title }}
+            </h2>
+            <div class="relative">
+                <div class="swiper heroSwiper">
+                    <div class="swiper-wrapper">
+                        
+
+                        {{ $lang := .Site.Language.Lang }}
+                        {{ $testimonials := index .Site.Data (printf "testimonials.%s" $lang) "cards" }}
+
+                        {{ range $index, $testimonial := first 3 $testimonials }}
+                            <div class="swiper-slide">
+                                <div class="flex justify-center mb-2">
+                                    <img src="{{ .image }}" alt="user icon"
+                                        class="w-14 h-14 rounded-full border-2 border-solid border-transparent group-hover:border-primary object-cover transition-all duration-500"/>
+                                </div>
+                                <p class="lg:text-xl text-base text-white">
+                                    {{ .content }}
+                                </p>
+                            </div>
+                        {{ end }}
+                        
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}

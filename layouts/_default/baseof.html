@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+
+      <title>
+         {{ .Site.Title }} | {{ if .Page.Title }}{{ .Page.Title }}{{ end }}
+      </title>
+
+      <link rel="icon" type="image/png" href="{{site.Params.siteLogo}}">
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+      <link rel="stylesheet" href="{{ "/assets/output.css" | relURL }}">
+
+   </head>
+
+   <body>
+      
+      {{ partial "header.html" . }}
+
+      <main class="lg:mt-0 mt-[88px]">
+         {{ block "main" . }}
+         {{ end }}
+         {{ partial "footer.html" . }} 
+      </main>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+         var swiper = new Swiper(".heroSwiper", {
+            loop: false,
+            pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+            },
+            spaceBetween: 10,
+            autoplay: {
+                  delay: 5000,
+            },
+         });
+     </script>
+
+      <script src="{{ "/assets/js/custom.js" | relURL }}"></script>
+     
+   </body>
+</html>

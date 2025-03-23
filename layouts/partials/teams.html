@@ -1,0 +1,35 @@
+{{ if .Params.Teams.enable }}
+ 
+<!-----Teams Start----->
+<section class="lg:py-20 py-14">
+    <div class="container">
+        <h2 class="lg:text-5xl text-3xl text-primary font-medium leading-12 lg:mb-8 mb-5 text-center">
+            {{ .Params.Teams.title }}
+        </h2>
+        <div class="grid grid-cols-12 gap-5">
+            
+            {{ $lang := .Site.Language.Lang }} 
+            {{ $teams := index .Site.Data (printf "teams.%s" $lang) "cards" }}
+
+            {{ range $index, $team := $teams }}
+
+                <div class="block lg:col-span-3 col-span-12 bg-gray-100 p-3 rounded-md shadow-md text-center group">
+                    <div class="mb-3">
+                        <img src="{{ .image }}" alt="{{ .name }}"
+                            class="w-40 h-40 rounded-full mx-auto border-2 border-solid border-transparent group-hover:border-primary object-cover transition-all duration-500"/>
+                    </div>
+                    <h4 class="text-base font-semibold text-primary mb-1 capitalize">
+                        {{ .name }}
+                    </h4>
+                    <span class="text-Secondary font-normal block mb-2">{{ .designation }}</span>
+                    <p class="text-Dark text-sm font-medium">{{ .skills }}</p>
+                </div>
+
+            {{ end }}
+            
+        </div>
+    </div>
+</section>
+<!-----Teams Start----->
+
+{{ end }}

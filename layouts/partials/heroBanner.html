@@ -1,0 +1,18 @@
+<!-----Hero Section Start----->
+<section id="home" class="lg:py-20 py-14 flex items-center justify-center bg_image">
+    <div class="container">
+        <div class="lg:max-w-4xl lg:mx-auto text-center">
+            <h1 class="lg:text-6xl text-4xl text-primary font-bold leading-12 lg:mb-8 mb-5">
+                {{ .Params.HeroBanner.title }}
+            </h1>
+            <p class="lg:text-xl text-base text-Dark">
+                {{ .Params.HeroBanner.content }}
+            </p>
+            <a href="{{ "about" | absLangURL }}" type="button"
+               class="text-white bg-primary hover:bg-Secondary font-medium text-sm px-5 py-2.5 transition ease-in-out block max-w-fit mx-auto duration-300 mt-6 cursor-pointer">
+               {{ .Params.HeroBanner.button.text }}
+            </a>
+        </div>
+    </div>
+</section>
+<!-----Hero Section End----->

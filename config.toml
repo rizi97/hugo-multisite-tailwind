@@ -1,0 +1,67 @@
+baseURL = '/'
+title = 'TyskTech'
+
+defaultContentLanguage = "en"
+relativeURLs = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 1
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "Services"
+        url = "/services"
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 3
+
+      [[languages.en.menu.footer]]
+        name = "Impression"
+        url = "/"
+        weight = 1
+      [[languages.en.menu.footer]]
+        name = "Privacy Policy"
+        url = "/services"
+        weight = 2
+
+  [languages.de]
+    languageName = "German"
+    contentDir = "content/de"
+    weight = 2
+
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        name = "Startseite"
+        url = "/"
+        weight = 1
+      [[languages.de.menu.main]]
+        name = "Dienstleistungen"
+        url = "/services"
+        weight = 2
+      [[languages.de.menu.main]]
+        name = "Über Uns"
+        url = "/about/"
+        weight = 3
+
+      [[languages.de.menu.footer]]
+        name = "Startseite"
+        url = "/"
+        weight = 1
+      [[languages.de.menu.footer]]
+        name = "Dienstleistungen"
+        url = "/services"
+        weight = 2
+
+
+
+[Params]
+siteLogo = "/assets/images/logo.png"

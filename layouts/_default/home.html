@@ -1,0 +1,8 @@
+{{ define "main" }}
+    {{ partialCached "heroBanner.html" . }}
+    {{ partial "services.html" . }}
+    {{ partialCached "about.html" . }}
+    {{ partial "testimonials.html" . }}
+    {{ partial "teams.html" . }}
+    {{ partialCached "map.html" . }}
+{{ end }}

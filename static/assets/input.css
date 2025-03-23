@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Define all the font faces for Futura */
+
+/* Regular (Normal) fonts */
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 100;
+    src: url('/assets/fonts/FuturaPTBook.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 200;
+    src: url('/assets/fonts/FuturaPTLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/assets/fonts/FuturaPTMedium.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/assets/fonts/FuturaPTBook.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/assets/fonts/FuturaPTDemi.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/assets/fonts/FuturaPTCondBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/assets/fonts/FuturaPTBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 800;
+    src: url('/assets/fonts/FuturaPTCondExtraBold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 900;
+    src: url('/assets/fonts/FuturaPTHeavy.otf') format('opentype');
+}
+
+/* Oblique (Italic) fonts */
+@font-face {
+    font-family: 'Futura';
+    font-style: oblique;
+    font-weight: 100;
+    src: url('/assets/fonts/FuturaPTBookOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: oblique;
+    font-weight: 200;
+    src: url('/assets/fonts/FuturaPTLightOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: oblique;
+    font-weight: 300;
+    src: url('/assets/fonts/FuturaPTMediumOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: oblique;
+    font-weight: 400;
+    src: url('/assets/fonts/FuturaPTBookOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: oblique;
+    font-weight: 500;
+    src: url('/assets/fonts/FuturaPTDemiOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: oblique;
+    font-weight: 600;
+    src: url('/assets/fonts/FuturaPTCondBoldOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: oblique;
+    font-weight: 700;
+    src: url('/assets/fonts/FuturaPTBoldOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: oblique;
+    font-weight: 800;
+    src: url('/assets/fonts/FuturaPTCondExtraBoldOblique.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Futura';
+    font-style: oblique;
+    font-weight: 900;
+    src: url('/assets/fonts/FuturaPTHeavyOblique.otf') format('opentype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Futura', sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+    .menu-icon.close {
+        display: none;
+    }
+
+    .menu-active .menu-icon.close {
+        display: block;
+    }
+
+    .menu-active .menu-icon.open {
+        display: none;
+    }
+
+    #mobile-menu {
+        display: block;
+    }
+
+    .nav-list {
+        @apply bg-primary absolute top-[96px] left-0 w-full flex-col transition opacity-0 overflow-y-auto z-50;
+        height: calc(100vh - 96px);
+        transform: translate(-100%, 0);
+        transition: 0.3s ease-in-out;
+    }
+    .nav-list.active {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+
+    .shadow-bg {
+        background-size: 100% 8%;
+    }
+}
+
+.bg_image {
+    background: url("/assets/images/Hexagon-light.svg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #ffffff !important;
+}
+
+.swiper-pagination {
+    bottom: -2.5rem !important;
+}
