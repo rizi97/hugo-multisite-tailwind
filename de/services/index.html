@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta
+         name="viewport"
+         content="width=device-width, initial-scale=1, shrink-to-fit=no"
+      />
+
+      <title>
+         TyskTech | Services
+      </title>
+
+      <link rel="icon" type="image/png" href="../../assets/images/logo.png">
+
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+      <link rel="stylesheet" href="../../assets/output.css">
+
+   </head>
+
+   <body>
+      
+      <div class="bg-white border-b border-dark sticky top-0 w-full z-50">
+    
+    <header class="lg:px-8 px-4 py-4 max-w-screen-2xl mx-auto">
+        <div class="flex justify-between items-center lg:relative">
+            <a href="../../de">
+                <img src="../../assets/images/logo.png" class="h-16" alt="site-logo">
+            </a>
+
+            <nav class="nav-list" id="toggle-menu">
+                <ul class="flex lg:gap-10 lg:flex-row flex-col lg:items-center text-white text-[18px] leading-5 font-medium">
+                    
+                    
+                        <li>
+                            <a href="../../de/"
+                                class="relative lg:inline-block block lg:p-0 px-5 py-3 lg:border-0 border border-b-white lg:text-primary text-white lg:hover:text-primary hover:text-Secondary">
+                                Startseite
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="../../de/services"
+                                class="relative lg:inline-block block lg:p-0 px-5 py-3 lg:border-0 border border-b-white lg:text-primary text-white lg:hover:text-primary hover:text-Secondary">
+                                Dienstleistungen
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a href="../../de/about/"
+                                class="relative lg:inline-block block lg:p-0 px-5 py-3 lg:border-0 border border-b-white lg:text-primary text-white lg:hover:text-primary hover:text-Secondary">
+                                Über Uns
+                            </a>
+                        </li>
+                    
+
+
+                    <li class="lg:absolute lg:right-0 lg:border-0 border border-b-white">
+                        <div class="relative">
+                            <button id="language-btn" onclick="toggleDropdown()" class="flex items-center lg:p-0 px-5 py-3 text-[18px] leading-5 lg:text-primary text-white">
+                                🌍 German
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 ml-2" fill="none"
+                                     viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </button>
+                            <ul id="language-menu" class="hidden absolute lg:-left-12 left-0 hidden bg-white text-Dark p-2 rounded-md shadow-md w-40">
+                                
+                                <li>
+                                    <a href="../../en" class="flex items-center p-2 text-base hover:bg-gray-100">
+                                         🇬🇧 English 
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="../../de" class="flex items-center p-2 text-base hover:bg-gray-100">
+                                         🇩🇪 Deutsch 
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <div class="lg:min-w-28 flex justify-end">
+                <div id="mobile-menu" class="lg:hidden block cursor-pointer">
+                    <span><img src="../../assets/images/menu.svg" alt="menu" class="menu-icon open image-nav"></span>
+                    <span><img src="../../assets/images/cross.svg" alt="cross" class="menu-icon close image-nav"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+</div>
+
+      <main class="lg:mt-0 mt-[88px]">
+         
+   services
+    
+
+         
+<footer class="bg-Dark p-4">
+    <p class="text-white text-base text-center font-light">© 2025 by TyskTech | 
+
+        
+        
+
+        
+            <a href="../../de/" class="underline cursor-pointer">Startseite</a>
+             | 
+        
+            <a href="../../de/services" class="underline cursor-pointer">Dienstleistungen</a>
+            
+        
+
+    </p>
+</footer>
+     
+      </main>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script>
+         var swiper = new Swiper(".heroSwiper", {
+            loop: false,
+            pagination: {
+                  el: ".swiper-pagination",
+                  clickable: true,
+            },
+            spaceBetween: 10,
+            autoplay: {
+                  delay: 5000,
+            },
+         });
+     </script>
+
+      <script src="../../assets/js/custom.js"></script>
+     
+   </body>
+</html>
