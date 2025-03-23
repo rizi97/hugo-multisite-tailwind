@@ -1,5 +1,4 @@
-# baseURL = '/'
-baseURL = '/hugo-multisite-tailwind/'
+baseURL = '/'
 title = 'TyskTech'
 
 defaultContentLanguage = "en"
