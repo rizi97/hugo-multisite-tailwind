@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+  </url><url>
     <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -12,6 +24,42 @@
                 rel="alternate"
                 hreflang="en"
                 href="/categories/"
+                />
+  </url><url>
+    <loc>/services/digital-assets/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/services/digital-assets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/services/digital-assets/"
+                />
+  </url><url>
+    <loc>/services/digital-identity/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/services/digital-identity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/services/digital-identity/"
+                />
+  </url><url>
+    <loc>/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
                 />
   </url><url>
     <loc>/services/</loc>
@@ -26,16 +74,28 @@
                 href="/services/"
                 />
   </url><url>
-    <loc>/</loc>
+    <loc>/services/payment-regulation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/"
+                href="/de/services/payment-regulation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="/services/payment-regulation/"
+                />
+  </url><url>
+    <loc>/services/seo-marketing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/services/seo-marketing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/services/seo-marketing/"
                 />
   </url><url>
     <loc>/tags/</loc>

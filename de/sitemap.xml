@@ -14,18 +14,6 @@
                 href="/de/categories/"
                 />
   </url><url>
-    <loc>/de/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/"
-                />
-  </url><url>
     <loc>/de/services/</loc>
     <xhtml:link
                 rel="alternate"
@@ -38,6 +26,54 @@
                 href="/de/services/"
                 />
   </url><url>
+    <loc>/de/services/digital-identity/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/services/digital-identity/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/services/digital-identity/"
+                />
+  </url><url>
+    <loc>/de/services/digital-assets/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/services/digital-assets/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/services/digital-assets/"
+                />
+  </url><url>
+    <loc>/de/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/"
+                />
+  </url><url>
+    <loc>/de/services/seo-marketing/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/services/seo-marketing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/services/seo-marketing/"
+                />
+  </url><url>
     <loc>/de/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -48,6 +84,30 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/tags/"
+                />
+  </url><url>
+    <loc>/de/about/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/about/"
+                />
+  </url><url>
+    <loc>/de/services/payment-regulation/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/services/payment-regulation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/services/payment-regulation/"
                 />
   </url>
 </urlset>
