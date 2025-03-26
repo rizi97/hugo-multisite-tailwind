@@ -1,0 +1,5 @@
+{{- $id := .Anchor | default (lower (replace .Text " " "-")) -}}
+
+<h{{ .Level }} id="{{ $id }}" class="lg:text-5xl text-3xl text-primary font-medium leading-12 lg:mb-6 mt-5 mb-3">
+    {{ .Text | safeHTML }}
+</h{{ .Level }}>

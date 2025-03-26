@@ -8,17 +8,13 @@
         </h2>
         <div class="grid grid-cols-12 gap-5">
             
-            {{ $currentLang := .Site.Language.Lang }}
-            {{ $services := where .Site.RegularPages "Section" "services" }}
-            {{ $filteredServices := where $services "Lang" "eq" $currentLang }}
+            {{ $lang := .Site.Language.Lang }}
+            {{ $services := index .Site.Data (printf "services.%s" $lang) "cards" }}
 
             {{ $count := .Params.Services.count | default 0 }}
 
-            <!-- Custom sorting by 'order' -->
-            {{ $sortedServices := sort $filteredServices "Params.order" "asc" }}
-
-            {{ if and (gt $count 0) (gt (len $sortedServices) 0) }}
-                {{ range $index, $service := first $count $sortedServices }}
+            {{ if gt $count 0 }}
+                {{ range $index, $service := first 3 $services }}
                     <div class="lg:col-span-4 col-span-12 block p-6 border border-gray-100 rounded-lg shadow-md bg-gray-100">
                         <div class="flex flex-col justify-between h-full">
                             <div>
@@ -26,22 +22,22 @@
                                     {{ add $index 1 }}
                                 </span>
                                 <h2 class="mb-4 text-2xl font-bold tracking-tight text-primary capitalize">
-                                    {{ .Title }}
+                                    {{ .title }}
                                 </h2>
                                 <p class="lg:text-xl text-base font-normal text-Dark mb-5">
-                                    {{ .Params.content | default "No description available." }}
+                                    {{ .content }}
                                 </p>
                             </div>
 
-                            <a href="{{ .RelPermalink }}" type="button"
+                            <a href="{{ .button.link }}" type="button"
                             class="text-white bg-primary hover:bg-Dark font-medium text-sm px-5 py-2.5 transition ease-in-out duration-300 max-w-fit cursor-pointer">
-                                Read More
+                                {{ .button.text }}
                             </a>
                         </div>
                     </div>
                 {{ end }}
             {{ else }}
-                {{ range $index, $service := $sortedServices }}
+                {{ range $index, $service := $services }}
                     <div class="lg:col-span-4 col-span-12 block p-6 border border-gray-100 rounded-lg shadow-md bg-gray-100">
                         <div class="flex flex-col justify-between h-full">
                             <div>
@@ -49,25 +45,24 @@
                                     {{ add $index 1 }}
                                 </span>
                                 <h2 class="mb-4 text-2xl font-bold tracking-tight text-primary capitalize">
-                                    {{ .Title }}
+                                    {{ .title }}
                                 </h2>
                                 <p class="lg:text-xl text-base font-normal text-Dark mb-5">
-                                    {{ .Params.content | default "No description available." }}
+                                    {{ .content }}
                                 </p>
                             </div>
 
-                            <a href="{{ .RelPermalink }}" type="button"
+                            <a href="{{ .button.link }}" type="button"
                             class="text-white bg-primary hover:bg-Dark font-medium text-sm px-5 py-2.5 transition ease-in-out duration-300 max-w-fit cursor-pointer">
-                                Read More
+                                {{ .button.text }}
                             </a>
                         </div>
                     </div>
                 {{ end }}
             {{ end }}
 
+
         </div>
-
-
 
         {{ if .Params.Services.button }}
 

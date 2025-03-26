@@ -8,6 +8,8 @@ HeroBanner:
     text: Erfahren Sie mehr
 Services:
   enable: true
+  isHome: true
+  count: 3
   title: Dienstleistungen
   button:
     text: Weitere Dienstleistungen

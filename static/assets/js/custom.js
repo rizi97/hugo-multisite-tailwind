@@ -38,3 +38,35 @@ function toggleDropdown() {
 }
 
 
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let result = "";
+    const _pathname = window.location.pathname;  
+
+    const langLinks = document.querySelectorAll("a[data-lang]");  
+
+    langLinks.forEach(link => {
+        const lang = link.dataset.lang;  // Get data-lang value
+
+        // Break the pathname into parts, removing empty values
+        const parts = _pathname.split('/').filter(part => part !== "");
+
+        // Check if the current language exists in the path
+        const currentLangIndex = (parts[0] === "en" || parts[0] === "de") ? 0 : -1;
+
+        if (currentLangIndex !== -1) {
+            result = parts.slice(1).join('/');  // Get remaining part of the URL
+        } else {
+            result = parts.join('/');  // If no language, take full path
+        }
+
+
+        // Construct the new URL for language switch
+        if (lang === "de") {
+            link.href = `${window.location.origin}/de/${result}`;
+        } else if (lang === "en") {
+            link.href = `${window.location.origin}/${result}`;
+        } 
+    });
+});

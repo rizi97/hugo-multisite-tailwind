@@ -1,4 +1,33 @@
 {{ define "main" }}
-   services
-    
+   {{ partial "pageBanner.html" . }}
+
+
+   {{ if .Content }}
+
+      <section id="services-inner" class="lg:py-20 py-14">
+         <div class="container">
+            <div class="grid lg:grid-cols-1 grid-cols-1">
+               
+               {{ .Content }}
+
+            </div>
+         </div>
+      </section>
+
+   {{ end }}
+
+
+   {{ partial "services.html" . }}
+
+
+   <style>
+      #services-inner p {
+         font-size: 1.25rem;
+         line-height: 1.75rem;
+         color: rgb(35 31 32 / var(--tw-text-opacity, 1));
+         font-weight: 400;
+         margin-bottom: 0.75rem;
+      }
+   </style>
+
 {{ end }}
