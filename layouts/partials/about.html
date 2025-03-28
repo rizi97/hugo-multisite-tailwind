@@ -11,10 +11,12 @@
 
                 {{ .Params.About.content | markdownify | replaceRE "<p>" "<p class='lg:text-xl text-base text-Dark font-normal mb-3'>" | safeHTML }} 
 
-                <a href="{{ "about" | absLangURL }}" type="button"
-                   class="text-white bg-primary hover:bg-Dark font-medium block text-sm px-5 py-2.5 transition ease-in-out duration-300 max-w-fit mt-6 cursor-pointer">
-                   {{ .Params.About.button.text }}
-                </a>
+                {{ if .Params.About.button.enable }}
+                    <a href="{{ "about" | absLangURL }}" type="button"
+                    class="text-white bg-primary hover:bg-Dark font-medium block text-sm px-5 py-2.5 transition ease-in-out duration-300 max-w-fit mt-6 cursor-pointer">
+                    {{ .Params.About.button.text }}
+                    </a>
+                {{ end }}
             </div>
             <div>
                 <img class="w-full h-full rounded-3xl object-cover"

@@ -11,12 +11,20 @@
       </div>
    </section>
 
+   {{ partial "cta.html" . }}
 
    {{ partial "achievements.html" . }}
 
    {{ partial "teams.html" . }}
 
    <style>
+      #about ul {
+         margin-bottom: 20px;
+         font-size: 1.25rem;
+         line-height: 1.75rem;
+         color: #231f20;
+         list-style: inside;
+      }
       #about p {
          font-size: 1.25rem;
          line-height: 1.75rem;

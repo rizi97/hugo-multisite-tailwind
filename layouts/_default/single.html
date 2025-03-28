@@ -1,0 +1,19 @@
+{{ define "main" }}
+
+    {{ partial "pageBanner.html" . }}
+
+    {{ if .Content }}
+
+        <section id="single-page" class="lg:py-20 py-14">
+            <div class="container">
+            <div class="grid lg:grid-cols-1 grid-cols-1">
+                
+                {{ .Content }}
+
+            </div>
+            </div>
+        </section>
+
+    {{ end }}
+
+{{ end }}

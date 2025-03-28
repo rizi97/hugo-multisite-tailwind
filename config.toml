@@ -10,6 +10,20 @@ relativeURLs = true
     contentDir = "content/en"
     weight = 1
 
+    [languages.en.CTA]
+      enable = true
+      title = "Call to Action"
+      tagline = "Ready to Transform Your IT Capabilities?"
+      content = "Let's discuss how TyskTech can help you leverage technology to achieve your business objectives."
+
+      [languages.en.CTA.button1]
+        text = "Discover Our Services"
+        link = "services"
+
+      [languages.en.CTA.button2]
+        text = "Contact Us Today"
+        link = "about"
+
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "Home"
@@ -17,26 +31,40 @@ relativeURLs = true
         weight = 1
       [[languages.en.menu.main]]
         name = "Services"
-        url = "/"
+        url = "/services"
         weight = 2
       [[languages.en.menu.main]]
         name = "About"
-        url = "/"
+        url = "/about"
         weight = 3
 
       [[languages.en.menu.footer]]
         name = "Impression"
-        url = "/"
+        url = "/impression"
         weight = 1
       [[languages.en.menu.footer]]
         name = "Privacy Policy"
-        url = "/"
+        url = "/privacy-policy"
         weight = 2
 
   [languages.de]
     languageName = "German"
     contentDir = "content/de"
     weight = 2
+
+    [languages.de.CTA]
+      enable = true
+      title = "Aufruf zum Handeln"
+      tagline = "Sind Sie bereit, Ihre IT-Fähigkeiten zu transformieren?"
+      content = "Lassen Sie uns besprechen, wie TyskTech Ihnen helfen kann, Technologie zum Erreichen Ihrer Geschäftsziele zu nutzen."
+
+      [languages.de.CTA.button1]
+        text = "Entdecken Sie unsere Dienstleistungen"
+        link = "services"
+
+      [languages.de.CTA.button2]
+        text = "Kontaktieren Sie uns noch heute"
+        link = "about"
 
     [languages.de.menu]
       [[languages.de.menu.main]]
@@ -45,20 +73,20 @@ relativeURLs = true
         weight = 1
       [[languages.de.menu.main]]
         name = "Dienstleistungen"
-        url = "/"
+        url = "/services"
         weight = 2
       [[languages.de.menu.main]]
         name = "Über Uns"
-        url = "/"
+        url = "/about"
         weight = 3
 
       [[languages.de.menu.footer]]
         name = "Startseite"
-        url = "/"
+        url = "/impression"
         weight = 1
       [[languages.de.menu.footer]]
         name = "Dienstleistungen"
-        url = "/"
+        url = "/privacy-policy"
         weight = 2
 
 

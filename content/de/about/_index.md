@@ -3,7 +3,7 @@ layout: about
 title: Über uns
 tagline: Wir haben mit den weltweit führenden Unternehmen zusammengearbeitet, die in ihren Sektoren in den Bereichen soziale Medien, Zahlungen, Marktplätze, Gastgewerbe und Industrie 4.0 führend sind, um ihnen dabei zu helfen, die Blockchain zu nutzen, um Millionen bis Milliarden von Kunden auf der ganzen Welt besser zu bedienen.
 Achievements:
-  enable: true
+  enable: false
   title: Unsere Erfolge
   stats:
     - name: Kunden
@@ -14,9 +14,8 @@ Achievements:
       value: 25
     - name: Std
       value: 400
-
 Teams:
-  enable: true
+  enable: false
   title: Unser Führungsteam
 ---
 

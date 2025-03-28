@@ -2,10 +2,15 @@
 layout: home
 title: Home
 HeroBanner:
-  title: At the global intersection of payments, identity & digital assets
-  content: Let etonec help you build the solution for your company that is both disruptive and compliant.
-  button:
-    text: Learn More
+  title: Innovative IT Solutions for Your Digital Future
+  tagline: Specializing in Software Development, DevOps, and Enterprise Software & System Architecture
+  content: TyskTech delivers cutting-edge IT consulting and services that transform your business challenges into technological advantages. Our expert team creates custom solutions that drive efficiency, scalability, and innovation.
+  button1:
+    text: Discover Our Services
+    link: services
+  button2:
+    text: Contact Us Today
+    link: about
 Services:
   enable: true
   isHome: true
@@ -15,28 +20,34 @@ Services:
     text: More Services
 About:
   enable: true
-  title: About Us
+  title: Why Choose Us
   image: /assets/images/about.png
   content: |
-      Through collaboration, diverse perspectives and strengths are leveraged to create 
-      inclusive environments where everyone has the opportunity to thrive.
+      **Our Approach** 
 
-      This approach not only fosters personal growth and achievement but also 
-      strengthens the fabric of society.
+      At TyskTech, we combine technical expertise with business insight. We don't just implement technology – we solve business problems. Our consultative approach ensures that every solution we deliver creates measurable value for your organization.
 
-      Our achievement story is a testament to teamwork and perseverance. Together, 
-      we've overcome challenges, celebrated victories, and created a narrative of 
-      progress and success.
+      **Our Expertise**
 
-      The main ‘thrust’ is to focus on educating attendees on how to best protect highly 
-      vulnerable business applications with interactive panel discussions and roundtables.
+      - Modern software development methodologies
+      - Cloud-native application architecture
+      - DevOps implementation and optimization
+      - Technology stack modernization
+      - Enterprise systems integration
+      - Performance optimization and scaling
+      
+      **Our Difference**
+
+      What sets TyskTech apart is our commitment to understanding your business first. Technology should serve your goals, not dictate them. We work closely with your team to ensure our solutions align perfectly with your vision and objectives.
   button:
+    enable: false
     text: Learn more
 Testimonials:
-  enable: true
+  enable: false
   title: Our Testimonials
 Teams:
-  enable: true
+  enable: false
   title: The Leadership Team
-
+Map:
+  enable: false
 ---

@@ -1,6 +1,6 @@
 <!-----Footer Start----->
-<footer class="bg-Dark p-4">
-    <p class="text-white text-base text-center font-light">© 2025 by {{ .Site.Title }} | 
+<footer class="p-4 {{ if .Params.isDark }} bg-Dark {{ end}}">
+    <p class="{{ if .Params.isDark }} text-white {{else}} text-Dark {{ end}} text-base text-center font-light">© 2025 by {{ .Site.Title }} | 
 
         {{ $menuItems := .Site.Menus.footer }}
         {{ $total := len $menuItems }}

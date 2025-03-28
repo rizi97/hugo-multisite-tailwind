@@ -28,7 +28,10 @@
                                 <h2 class="mb-4 text-2xl font-bold tracking-tight text-primary capitalize">
                                     {{ .Title }}
                                 </h2>
-                                <p class="lg:text-xl text-base font-normal text-Dark mb-5">
+                                <p class=" mb-4 lg:text-xl text-base text-Dark font-medium">
+                                    {{ .Params.tagline }}
+                                </p>
+                                <p class="lg:text-lg text-base font-normal text-Dark mb-5">
                                     {{ .Params.content | default "No description available." }}
                                 </p>
                             </div>
@@ -51,6 +54,9 @@
                                 <h2 class="mb-4 text-2xl font-bold tracking-tight text-primary capitalize">
                                     {{ .Title }}
                                 </h2>
+                                <p class=" mb-4 lg:text-xl text-base text-Dark font-medium">
+                                    {{ .Params.tagline }}
+                                </p>
                                 <p class="lg:text-xl text-base font-normal text-Dark mb-5">
                                     {{ .Params.content | default "No description available." }}
                                 </p>
