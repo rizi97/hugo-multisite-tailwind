@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/impression/</loc>
+    <lastmod>2024-03-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/impression/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/impression/"
+                />
+  </url><url>
+    <loc>/privacy-policy/</loc>
+    <lastmod>2024-03-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/privacy-policy/"
+                />
+  </url><url>
     <loc>/about/</loc>
     <xhtml:link
                 rel="alternate"
@@ -26,29 +52,31 @@
                 href="/categories/"
                 />
   </url><url>
-    <loc>/services/digital-assets/</loc>
+    <loc>/services/custom-software-development/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/services/digital-assets/"
+                href="/de/services/custom-software-development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/services/digital-assets/"
+                href="/services/custom-software-development/"
                 />
   </url><url>
-    <loc>/services/digital-identity/</loc>
+    <loc>/services/devops-excellence/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/services/digital-identity/"
+                href="/de/services/devops-excellence/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/services/digital-identity/"
+                href="/services/devops-excellence/"
                 />
+  </url><url>
+    <loc>/services/enterprise-software-system-architecture/</loc>
   </url><url>
     <loc>/</loc>
     <xhtml:link
@@ -72,30 +100,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/services/"
-                />
-  </url><url>
-    <loc>/services/payment-regulation/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/services/payment-regulation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/services/payment-regulation/"
-                />
-  </url><url>
-    <loc>/services/seo-marketing/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/services/seo-marketing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/services/seo-marketing/"
                 />
   </url><url>
     <loc>/tags/</loc>

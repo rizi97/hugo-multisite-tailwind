@@ -2,6 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/de/impression/</loc>
+    <lastmod>2024-03-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/impression/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/impression/"
+                />
+  </url><url>
+    <loc>/de/privacy-policy/</loc>
+    <lastmod>2024-03-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/privacy-policy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/privacy-policy/"
+                />
+  </url><url>
     <loc>/de/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -12,6 +38,18 @@
                 rel="alternate"
                 hreflang="de"
                 href="/de/categories/"
+                />
+  </url><url>
+    <loc>/de/services/devops-excellence/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/services/devops-excellence/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="/de/services/devops-excellence/"
                 />
   </url><url>
     <loc>/de/services/</loc>
@@ -26,30 +64,6 @@
                 href="/de/services/"
                 />
   </url><url>
-    <loc>/de/services/digital-identity/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/services/digital-identity/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/services/digital-identity/"
-                />
-  </url><url>
-    <loc>/de/services/digital-assets/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/services/digital-assets/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/services/digital-assets/"
-                />
-  </url><url>
     <loc>/de/</loc>
     <xhtml:link
                 rel="alternate"
@@ -62,16 +76,16 @@
                 href="/de/"
                 />
   </url><url>
-    <loc>/de/services/seo-marketing/</loc>
+    <loc>/de/services/custom-software-development/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/services/seo-marketing/"
+                href="/services/custom-software-development/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/de/services/seo-marketing/"
+                href="/de/services/custom-software-development/"
                 />
   </url><url>
     <loc>/de/tags/</loc>
@@ -98,16 +112,6 @@
                 href="/de/about/"
                 />
   </url><url>
-    <loc>/de/services/payment-regulation/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/services/payment-regulation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/de/services/payment-regulation/"
-                />
+    <loc>/de/services/enterprise-software-system-architecture.md/</loc>
   </url>
 </urlset>

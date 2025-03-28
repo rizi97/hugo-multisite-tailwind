@@ -6,43 +6,30 @@
     <description>Recent content in Dienstleistungen on TyskTech</description>
     <generator>Hugo -- gohugo.io</generator><atom:link href="/de/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Digitale Identität</title>
-      <link>/de/services/digital-identity/</link>
+      <title>DevOps-Exzellenz</title>
+      <link>/de/services/devops-excellence/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/de/services/digital-identity/</guid>
-      <description>Was ist die EUDI-Wallet? Gemäß der EU-Verordnung 2024/1183, oft auch als „eIDAS 2.0“ bezeichnet, müssen alle EU-Mitgliedstaaten ihren Bürgern bis Anfang 2027 eine Europäische Digitale Identitäts-Wallet (EUDI) zur Verfügung stellen.
-Eine solche Wallet ermöglicht es Bürgern, digitale Ausweisdokumente in Form sogenannter Anmeldeinformationen zu speichern und diese für verschiedene Anwendungsfälle in der gesamten EU zu nutzen. Zu diesen Anwendungsfällen gehören beispielsweise die Eröffnung eines (Bank-)Kontos, die Autorisierung von Zahlungstransaktionen oder die Registrierung einer SIM-Karte.</description>
+      <guid>/de/services/devops-excellence/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>digitale Vermögenswerte</title>
-      <link>/de/services/digital-assets/</link>
+      <title>Individuelle Softwareentwicklung</title>
+      <link>/de/services/custom-software-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/de/services/digital-assets/</guid>
-      <description>Was ist die EUDI-Wallet? Gemäß der EU-Verordnung 2024/1183, oft auch als „eIDAS 2.0“ bezeichnet, müssen alle EU-Mitgliedstaaten ihren Bürgern bis Anfang 2027 eine Europäische Digitale Identitäts-Wallet (EUDI) zur Verfügung stellen.
-Eine solche Wallet ermöglicht es Bürgern, digitale Ausweisdokumente in Form sogenannter Anmeldeinformationen zu speichern und diese für verschiedene Anwendungsfälle in der gesamten EU zu nutzen. Zu diesen Anwendungsfällen gehören beispielsweise die Eröffnung eines (Bank-)Kontos, die Autorisierung von Zahlungstransaktionen oder die Registrierung einer SIM-Karte.</description>
+      <guid>/de/services/custom-software-development/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Seo &amp; Marketing</title>
-      <link>/de/services/seo-marketing/</link>
+      <title>Unternehmenssoftware und Systemarchitektur</title>
+      <link>/de/services/enterprise-software-system-architecture.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/de/services/seo-marketing/</guid>
-      <description>Was ist die EUDI-Wallet? Gemäß der EU-Verordnung 2024/1183, oft auch als „eIDAS 2.0“ bezeichnet, müssen alle EU-Mitgliedstaaten ihren Bürgern bis Anfang 2027 eine Europäische Digitale Identitäts-Wallet (EUDI) zur Verfügung stellen.
-Eine solche Wallet ermöglicht es Bürgern, digitale Ausweisdokumente in Form sogenannter Anmeldeinformationen zu speichern und diese für verschiedene Anwendungsfälle in der gesamten EU zu nutzen. Zu diesen Anwendungsfällen gehören beispielsweise die Eröffnung eines (Bank-)Kontos, die Autorisierung von Zahlungstransaktionen oder die Registrierung einer SIM-Karte.</description>
-    </item>
-    
-    <item>
-      <title>Zahlung &amp; Regulierung</title>
-      <link>/de/services/payment-regulation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/de/services/payment-regulation/</guid>
-      <description>Was ist die EUDI-Wallet? Gemäß der EU-Verordnung 2024/1183, oft auch als „eIDAS 2.0“ bezeichnet, müssen alle EU-Mitgliedstaaten ihren Bürgern bis Anfang 2027 eine Europäische Digitale Identitäts-Wallet (EUDI) zur Verfügung stellen.
-Eine solche Wallet ermöglicht es Bürgern, digitale Ausweisdokumente in Form sogenannter Anmeldeinformationen zu speichern und diese für verschiedene Anwendungsfälle in der gesamten EU zu nutzen. Zu diesen Anwendungsfällen gehören beispielsweise die Eröffnung eines (Bank-)Kontos, die Autorisierung von Zahlungstransaktionen oder die Registrierung einer SIM-Karte.</description>
+      <guid>/de/services/enterprise-software-system-architecture.md/</guid>
+      <description></description>
     </item>
     
   </channel>
