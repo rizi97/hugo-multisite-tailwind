@@ -1,6 +1,13 @@
 ---
 layout: home
 title: Hola Home
+Keywords:
+  - keyword 1
+  - keyword 2
+  - keyword 3
+  - keyword 4
+Description: >
+  lorem ipsum text....
 HeroBanner:
   title: Innovative IT-Lösungen für Ihre digitale Zukunft
   tagline: Spezialisiert auf Softwareentwicklung, DevOps und Enterprise-Software- und Systemarchitektur

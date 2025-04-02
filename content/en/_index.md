@@ -1,6 +1,13 @@
 ---
 layout: home
 title: Home
+Keywords:
+  - keyword 1
+  - keyword 2
+  - keyword 3
+  - keyword 4
+Description: >
+  lorem ipsum text....
 HeroBanner:
   title: Innovative IT Solutions for Your Digital Future
   tagline: Specializing in Software Development, DevOps, and Enterprise Software & System Architecture
