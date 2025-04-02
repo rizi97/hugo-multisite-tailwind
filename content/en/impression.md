@@ -1,5 +1,12 @@
 ---
 title: Impression
+Keywords:
+  - keyword 1
+  - keyword 2
+  - keyword 3
+  - keyword 4
+Description: >
+  lorem ipsum text....
 date: 2024-03-28
 layout: single
 isDark: true
