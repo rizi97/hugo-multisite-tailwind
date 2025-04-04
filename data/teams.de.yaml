@@ -1,35 +1,13 @@
 cards:
-  - name: MARCUS NASAREK
+  - name: Max Joe
     designation: Founder & MD
     image: /assets/images/teams/1.png
     skills: Sideos, Cred, PayPal, Bundesverband deutscher Banken, Postbank
-  - name: JULIAN DREISSIG
-    designation: Chief Technology Officer
+  - name: Mila Lisa
+    designation: Founder & MD
     image: /assets/images/teams/2.png
-    skills: Solaris, PayPal, Karlmax, mobile.de
-  - name: NANCY TIMM
-    designation: Chief Product Officer
-    image: /assets/images/teams/1.png
-    skills: PayPal, Lloyds Banking Group, Accenture, IBM
-  - name: JONATHAN KNOLL
-    designation: Founder & MD
-    image: /assets/images/teams/3.png
-    skills: Libra/Diem, Cred Europe, Entersekt, PayPal, S1
-  - name: MARCUS NASAREK
-    designation: Founder & MD
-    image: /assets/images/teams/1.png
     skills: Sideos, Cred, PayPal, Bundesverband deutscher Banken, Postbank
-  - name: JULIAN DREISSIG
-    designation: Chief Technology Officer
-    image: /assets/images/teams/2.png
-    skills: Solaris, PayPal, Karlmax, mobile.de
-  - name: NANCY TIMM
-    designation: Chief Product Officer
-    image: /assets/images/teams/1.png
-    skills: PayPal, Lloyds Banking Group, Accenture, IBM
-  - name: JONATHAN KNOLL
+  - name: Oliver Hazel
     designation: Founder & MD
     image: /assets/images/teams/3.png
-    skills: Libra/Diem, Cred Europe, Entersekt, PayPal, S1
-
-
+    skills: Sideos, Cred, PayPal, Bundesverband deutscher Banken, Postbank
